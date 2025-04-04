@@ -1,0 +1,43 @@
+{
+    "missing": [
+        8,
+        20,
+        103,
+        105,
+        106,
+        107,
+        113,
+        116,
+        117,
+        121,
+        123,
+        138,
+        140,
+        145,
+        152,
+        168,
+        173,
+        174,
+        182,
+        183
+    ],
+    "list": [
+        {
+            "id": 17,
+            "parallel": "Holo Pink",
+            "limitedNumber": 34,
+            "limitedNumberTotal": 199,
+            "amount": 1
+        },
+        {
+            "id": 17,
+            "parallel": "Optichrome",
+            "amount": 1
+        },
+        {
+            "id": 17,
+            "parallel": "Base Holo",
+            "amount": 1
+        }
+    ]
+}

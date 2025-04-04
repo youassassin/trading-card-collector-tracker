@@ -1,0 +1,191 @@
+{
+    "maxCards": 200,
+    "range": {
+        "base": {
+            "beg": 1,
+            "end": 100
+        },
+        "valentine": {
+            "beg": 101,
+            "end": 110
+        },
+        "easter": {
+            "beg": 111,
+            "end": 120
+        },
+        "halloween": {
+            "beg": 121,
+            "end": 130
+        },
+        "holiday": {
+            "beg": 131,
+            "end": 140
+        },
+        "mallowStyles": {
+            "beg": 141,
+            "end": 175
+        },
+        "squad": {
+            "beg": 176,
+            "end": 190
+        },
+        "dieCut": {
+            "beg": 191,
+            "end": 200
+        }
+    },
+    "list": [
+        {
+            "id": 17,
+            "setId": 17,
+            "set": "Base",
+            "name": "Heather",
+            "series": "Series 1",
+            "squishDate": "9/6/20",
+            "collector": "517",
+            "squad": "Wildlife Squad",
+            "squadList": null,
+            "description": "True to her species' ability to transform, Heather is one of the mightiest 'Mallows around! No matter what obstacles come her way, she doesn't get discouraged. Heather can overcome any problems witha positive solution.",
+            "frontDescription": null
+        },
+        {
+            "id": 101,
+            "setId": 1,
+            "set": "Valentines",
+            "name": "Atwater",
+            "series": "Series 1",
+            "squishDate": "12/7/22",
+            "collector": "2101",
+            "squad": "Seasonal",
+            "squadList": null,
+            "description": "Atwater works at a boardwalk amusement park! She loves being seaside all day and helping little 'Mallows safely on and off the Ferris wheel, but her favorite perk is riding the wooden roller coaster as many times as she wants. Grab some cotton candy and hang around with Atwater!",
+            "frontDescription": null
+        },
+        {
+            "id": 111,
+            "setId": 1,
+            "set": "Easter",
+            "name": "Sydnee",
+            "series": "Series 1",
+            "squishDate": "5/25/23",
+            "collector": "511-3",
+            "squad": "Seasonal",
+            "squadList": null,
+            "description": "Meet Sydnee! This super squirrel dreams of becoming a super spy. She loves watching mystery movies with her family and even assigned them all code names. Make sure to check out Sydnee's secret headquarters - the treehouse in her backyard!",
+            "frontDescription": null
+        },
+        {
+            "id": 122,
+            "setId": 2,
+            "set": "Halloween",
+            "name": "Johanna",
+            "series": "Series 1",
+            "squishDate": "11/18/21",
+            "collector": "1363",
+            "squad": "Seasonal",
+            "squadList": null,
+            "description": "Johanna loves when the air turns crisp and the leaves on the trees begin to change. It means all her favorite fall vegetables are in season! Johanna loves to cook hearty soups that keep her and her friends warm during the cool fall nights. So grab a bowl, she'd love to share!",
+            "frontDescription": null
+        },
+        {
+            "id": 131,
+            "setId": 1,
+            "set": "Holiday",
+            "name": "Ernesto",
+            "series": "Series 1",
+            "squishDate": "9/22/22",
+            "collector": "1980",
+            "squad": "Seasonal",
+            "squadList": null,
+            "description": "Watch out for Ernesto! This 'Mallow moves fast on the soccer field, and before you know it, he's scored! Ernesto plays the midfield position, and will use his signature header to knock in goals. Ernesto loves the game, but loves supporting his teammates most of all.",
+            "frontDescription": null
+        },
+        {
+            "id": 141,
+            "setId": 1,
+            "set": "Mallow Styles",
+            "name": null,
+            "series": "Series 1",
+            "squishDate": null,
+            "collector": null,
+            "squad": null,
+            "squadList": null,
+            "description": null,
+            "frontDescription": "Squish Squad Squishmallows"
+        },
+        {
+            "id": 190,
+            "setId": 15,
+            "set": "Squish Squad",
+            "name": null,
+            "series": "Series 1",
+            "squishDate": null,
+            "collector": null,
+            "squad": "Buddy Squad",
+            "squadList": [
+                {
+                    "name": "Buddy",
+                    "description": "The Bulldog"
+                },
+                {
+                    "name": "Gigi",
+                    "description": "The Cat"
+                }
+            ],
+            "description": null,
+            "frontDescription": null
+        },
+        {
+            "id": 191,
+            "setId": 1,
+            "set": "Die Cut",
+            "name": "Cam",
+            "series": "Series 1",
+            "squishDate": null,
+            "collector": null,
+            "squad": null,
+            "squadList": null,
+            "description": "Cam loves to jump in and out of boxes and builds forts with his friends, Hoot and Wendy. He also enjoys going to the beach to take cat naps or hanging with his friends, but is always up for an adventure!",
+            "frontDescription": null
+        },
+        {
+            "id": 192,
+            "setId": 2,
+            "set": "Die Cut",
+            "name": "Hans",
+            "series": "Series 1",
+            "squishDate": null,
+            "collector": null,
+            "squad": null,
+            "squadList": null,
+            "description": "Hans is a movie buff - he's seen every movie ever! His favorite snack is popcorn with chocolate-covered raisins because when it comes to food, he's willing to try everything. Hans is very open to change and adventure.",
+            "frontDescription": null
+        },
+        {
+            "id": 193,
+            "setId": 3,
+            "set": "Die Cut",
+            "name": "Gordon",
+            "series": "Series 1",
+            "squishDate": null,
+            "collector": null,
+            "squad": null,
+            "squadList": null,
+            "description": "You don't have to fear, Gordon is one of the friendliest 'Mallows around! He loves helping others so much that one day he wants to start his own non-profit.",
+            "frontDescription": null
+        },
+        {
+            "id": 200,
+            "setId": 10,
+            "set": "Die Cut",
+            "name": "Maui",
+            "series": "Series 1",
+            "squishDate": null,
+            "collector": null,
+            "squad": null,
+            "squadList": null,
+            "description": "Skateboards and scuba diving are two scary things Maui is determined to conquer her fear of. She already checked roller coasters and rollerblading off her fist. Maui doesn't like to be scared so she tries to conquer her fears by trying new things. Can Maui help you overcome one of your fears?",
+            "frontDescription": null
+        }
+    ]
+}
