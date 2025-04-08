@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 import { SquishmallowCard } from 'src/app/models/squishmallow-card.model';
 
 @Component({
@@ -10,6 +11,10 @@ import { SquishmallowCard } from 'src/app/models/squishmallow-card.model';
 export class CardViewComponent {
   @Input() card!: SquishmallowCard;
   @Input() parallelType?: string;
+  @Input() isSelected = false;
+  @Input() isSmall = false;
+  @Input() classes = "";
+  @Output() selectionEmitter = new BehaviorSubject<SquishmallowCard>(this.card);
 
   get alwaysVisible() {
     return [
@@ -31,4 +36,11 @@ export class CardViewComponent {
       { label: 'Front Description', value: this.card.frontDescription },
     ];
   }
+
+  emitCard() {
+    if (!this.isSmall) return;
+    this.selectionEmitter.next(this.card);
+    this.isSelected = !this.isSelected;
+  }
 }
+

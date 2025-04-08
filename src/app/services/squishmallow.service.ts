@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -9,14 +10,19 @@ export class SquishmallowService {
 
   constructor(private http: HttpClient) { }
 
-  getDataBase() {
-    return this.http.get<any>(this.url).subscribe(
-      (response) => {
-        console.log('Data fetched successfully:', response);
-      },
-      (error) => {
-        console.error('Error fetching data:', error);
+  getDataBase(): Promise<any> {
+    return new Promise((done, error) => {
+      this.http.get<any>(this.url).subscribe({
+        next: (response) => {
+          console.log('Data fetched successfully:', response);
+          done(response);
+        },
+        error: (error) => {
+          console.error('Error fetching data:', error);
+          error(error);
+        }
       }
-    );
+      )
+    });
   }
 }

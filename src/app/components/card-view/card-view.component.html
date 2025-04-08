@@ -1,27 +1,25 @@
-<a class="card" target="_blank" rel="noopener">
+<a class="card" [class]="classes" target="_blank" rel="noopener" (click)="emitCard()">
     <!-- IMPORT -->
-    <div class="card max-w-md mx-auto p-4 rounded-2xl shadow-lg">
-        <div class="space-y-3">
-            <!-- Parallel Type Image Placeholder -->
-            <div *ngIf="parallelType" class="w-full h-48 bg-gray-100 rounded-lg flex items-center justify-center">
-                <span class="text-sm text-gray-500">Image for {{ parallelType }}</span>
-            </div>
+    <div class="">
+        <!-- Parallel Type Image Placeholder -->
+        <div *ngIf="parallelType" class="">
+            <span class="">Image for {{ parallelType }}</span>
+        </div>
 
-            <!-- Always Visible Info -->
-            <div class="grid grid-cols-2 gap-2">
-                <div *ngFor="let item of alwaysVisible">
-                    <p class="text-xs text-gray-500 uppercase tracking-wide">{{ item.label }}</p>
-                    <p class="text-sm font-medium">{{ item.value }}</p>
-                </div>
+        <!-- Always Visible Info -->
+        <div class="">
+            <div *ngFor="let item of alwaysVisible">
+                <p class="">{{ item.label }}</p>
+                <p class="">{{ item.value }}</p>
             </div>
+        </div>
 
-            <!-- Conditionally Visible Info -->
-            <div class="grid grid-cols-2 gap-2">
-                <div *ngFor="let item of conditionallyVisible">
-                    <div *ngIf="item.value">
-                        <p class="text-xs text-gray-400 uppercase tracking-wide">{{ item.label }}</p>
-                        <p class="text-sm text-gray-800">{{ item.value }}</p>
-                    </div>
+        <!-- Conditionally Visible Info -->
+        <div *ngIf="!isSmall">
+            <div *ngFor="let item of conditionallyVisible">
+                <div *ngIf="item.value">
+                    <p class="">{{ item.label }}</p>
+                    <p class="">{{ item.value }}</p>
                 </div>
             </div>
         </div>
